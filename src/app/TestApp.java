@@ -35,9 +35,7 @@ public class TestApp {
 			System.out.println("\n\tNoticia: " + e.getText());
 			System.out.println("\tEnlace: " + e.findElement(By.xpath("..")).getAttribute("href") + "\n");
 		}
-        //WebElement element = driver.findElement(By.name("q"));
-        //element.sendKeys("Cheese!");
-        //element.submit();
+
 	}
 
 	static private void drawSeparator() {
